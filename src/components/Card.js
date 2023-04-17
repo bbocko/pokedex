@@ -3,18 +3,18 @@ import React from 'react';
 const Card = () => {
     return (
         <div className="tc bg-washed-red ba dib br3 pa3 ma2 bw1 shadow-5">
-            <img src='https://img.pokemondb.net/sprites/brilliant-diamond-shining-pearl/normal/chimchar.png' alt='chimchar sprite' />
+            {/* <img src="{url from API}" alt='{pokemon name or ID} sprite' /> */}
             <div>
-                <h2>390 CHIMCHAR</h2>
-                <h3>Chimp Pokemon</h3>
+                {/* <h2>{pokemon ID} {pokemon name}</h2> */}
+                {/* <h3>{pokemon species} Pokemon</h3> */}
             </div>
             <div>
-                <button className='f4 br3 dib ph2 pv1 bg-light-red'>FIRE</button>
+                {/* <button className='f4 br3 dib ph2 pv1 bg-light-red'>{pokemon type}</button> */}
             </div>
             <div className='tl'>
-                <p>HT 1'08''</p>
-                <p>WT 13.7 lbs</p>
-                <p className='tc lh-copy measure-narrow'>The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.</p>
+                {/* <p>HT {pokemon height}</p> */}
+                {/* <p>WT {pokemoon weighz} lbs</p> */}
+                {/* <p className='tc lh-copy measure-narrow'>{pokemon description}</p> */}
             </div>
         </div>
     );
