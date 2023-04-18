@@ -20,6 +20,7 @@ const App = () => {
       const speciesData = speciesResponse.data;
       setSpeciesData(speciesData);
     } catch (error) {
+      alert('Something went wrong, please try again')
       console.error('Error fetching data:', error);
     }
   }
