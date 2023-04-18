@@ -23,13 +23,13 @@ const Card = ({ pokemonData, speciesData }) => {
     const description = flavorText.replace(/POKéMON/g, 'Pokemon')
 
     return (
-        <div className="tc bg-washed-red ba dib br3 pa3 ma2 bw1 shadow-5">
+        <div className="tc bg-washed-blue ba dib br3 pa3 ma2 bw1 shadow-5">
             <img src={imageUrl} alt='Pokemon Sprite' />
             <div>
                 <h2>{pokemonID} {pokemonName}</h2>
             </div>
             <div>
-                <button className='f4 br3 dib ph2 pv1 bg-light-red'>{pokemonType}</button>
+                <button style={{ pointerEvents: 'none' }} className='f4 br3 dib ph2 pv1'>{pokemonType}</button>
             </div>
             <div className='tl'>
                 <p>HT {heightInMeters} m</p>
