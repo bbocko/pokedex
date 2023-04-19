@@ -9,7 +9,7 @@ const SearchForm = ({ onSearch }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onSearch(pokemonName);
+        onSearch(pokemonName.toLowerCase());
     }
 
     return (
