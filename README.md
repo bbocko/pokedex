@@ -27,6 +27,7 @@ To search for a Pokemon, enter its name or ID into the search bar and press the 
 
 ## Built With
 - React
+- Tachyons
 - PokeAPI
 
 ## Contributing
